@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 
 export default function LandingPage() {
   
-  // Charge le script Lemon Squeezy au chargement du composant
   useEffect(() => {
     const script = document.createElement('script');
     script.src = 'https://assets.lemonsqueezy.com/lemon.js';
