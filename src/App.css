@@ -163,3 +163,29 @@ li::before {
     .exemple { flex-direction: column; }
     .logo-top { height: 40px; }
 }
+
+/* Header & Authentification Clerk */
+.app-container header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.btn-login {
+    background: linear-gradient(45deg, var(--primary-color), #ff8000);
+    color: white;
+    border: none;
+    padding: 0.6rem 1.6rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 77, 0, 0.3);
+}
+
+.btn-login:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(255, 77, 0, 0.5);
+}
