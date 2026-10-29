@@ -1,5 +1,11 @@
 import React from "react";
 import LandingPage from "./LandingPage.jsx";
+import decaImg from "../assets/deca.jpeg";
+import garminImg from "../assets/garmin.webp";
+import logoemImg from "../assets/logoem.png";
+import runImg from "../assets/run.png";
+import suitbasketImg from "../assets/suitbasket.png";
+import toutImg from "../assets/tout.png";
 
 function Home() {
   return (
@@ -22,13 +28,16 @@ function Home() {
       <div className="test">
         <p>Sur ce secteur, nous trouvons deux produits principaux :</p>
         <p>Les brassards Garmin et Décathlon.</p>
+      <div className="exemple">
+        <img src={decaImg} alt="Photo Deca" />
+        <img src={garminImg} alt="Photo garmin" />
+      </div>
         <p>Le brassard Garmin est un bon produit, mais il reste limité dans son utilisation. En effet, il ne permet pas de suivre la fréquence cardiaque en continu, n'est pas adapté à tous les sports et son prix reste élevé.</p>
         <p>Le produit de Décathlon est, lui aussi, limité : il ne propose pas de GPS et son application n'est pas très aboutie.</p>
         <p>De plus, leur forme rend la pratique peu pratique lors de phases d'opposition.</p>
       </div>
-
       <h2 className="titre">Où est-ce que l'on innove ?</h2>
-      
+      <img src={runImg} alt="Photo run" className="imagedeux"/>
       <div className="test">
         <p>Nous sommes partis avec trois exigences :</p>
         <ul>
@@ -47,9 +56,9 @@ function Home() {
         <p>Notre produit est divisé en deux parties : le maillot de compression, comprenant les capteurs cardiaques, et le boîtier de contrôle amovible, permettant un lavage facile et sûr du maillot au-delà de 90°C.</p>
         <p>Notre boîtier est ultra-léger et possède une batterie de 1500 mAh offrant de 12 à 15 h d'autonomie pour un temps de recharge de 2 h à 2 h 30.</p>
       </div>
-
+<img src={suitbasketImg} alt="Photo suit" className="imagedeux" />
       <h2 className="titre">Nos différents modèles :</h2>
-      
+<img src={toutImg} alt="Photo tout" className="imagedeux" />
       <div className="test">
         <p>Grâce aux propriétés uniques de notre textile, nos maillots s'adaptent parfaitement à toutes les morphologies pour un effet « seconde peau » optimal.</p>
         <p>Deux modèles sont à votre disposition : le maillot à manches longues et le maillot à manches courtes.</p>
